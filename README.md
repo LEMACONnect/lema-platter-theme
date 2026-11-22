@@ -35,7 +35,7 @@ Titles are Helvetica (Helvetica Neue, Helvetica, then Arial), bold, slightly tig
 
 Navy `#0e3a54` for structure (the rail, primary buttons, In lines), sky `#00adef` for what needs a person (with dark navy text on it; white on sky is too faint), charcoal `#35363a` text, periwinkle `#5262a6` for allowances and changes, forest `#1c6f47` for success, gold `#f2a900` as a fill only (its text colour is `#8a5a00`), red `#c0392b` for errors. The cube's four colours make the stripe at the top of the rail.
 
-The design system these values come from is the **LEMA Platter** design system on claude.ai; change values there first, then here.
+The design system these values come from is the **LEMA Platter** design system: https://claude.ai/artifact/V8C37QM1JqGLYBPpA9ZGHa (tokens named as Platter's variables, light `platter` and dark `platter-dark`, with the Budget table components). Change values there first, then here.
 
 ## Changing it
 
