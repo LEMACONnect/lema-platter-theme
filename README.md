@@ -23,17 +23,17 @@ You can still upload it as a ZIP (Settings › Look › Install package): zip th
 |---|---|
 | `brand.json` | the manifest: id `lema`, company, tagline, rail label, footer, contact, file names |
 | `theme.css` | colours, fonts, radii and every Platter variable, light (`platter`) and dark (`platter-dark`) |
-| `fonts/` | IBM Plex Sans and IBM Plex Mono (SIL Open Font License, `fonts/OFL-IBM-Plex.txt`) |
+| `fonts/` | Overpass, Red Hat Text and IBM Plex Mono (SIL Open Font License: `fonts/OFL-Overpass.txt`, `fonts/OFL-Red-Hat-Text.txt`, `fonts/OFL-IBM-Plex.txt`) |
 | `logo.svg`, `logo-white.svg`, `mark.svg`, `favicon.svg`, `touch-icon.png` | the LEMA logo, the cube mark and icons |
 | `deploy/LEMA-DEPLOYMENT.md` | how LEMA's own Platter deployment is set up |
 
 ## Type
 
-Titles are Helvetica (Helvetica Neue, Helvetica, then Arial), bold, slightly tight. Body text is IBM Plex Sans; figures, codes and job numbers are IBM Plex Mono. Helvetica is licensed and comes from the reader's computer (Macs and iPhones have it; Windows shows Arial).
+Titles are Overpass, bold, slightly tight (−0.01em). Body text is Red Hat Text: 400 for reading, 600 for labels and buttons, 500 at 70–82% for helper text and legends. Tags, eyebrows, figures, codes and job numbers are IBM Plex Mono. All three ship here as files, so every computer shows the same type (Ryan's choice, 2026-11-20, confirmed 2026-11-22).
 
 ## Colour
 
-Navy `#0e3a54` for structure (the rail, primary buttons, In lines), sky `#00adef` for what needs a person (with dark navy text on it; white on sky is too faint), charcoal `#35363a` text, periwinkle `#5262a6` for allowances and changes, forest `#1c6f47` for success, gold `#f2a900` as a fill only (its text colour is `#8a5a00`), red `#c0392b` for errors. The cube's four colours make the stripe at the top of the rail.
+Navy `#0e3a54` for structure (the rail, primary buttons, In lines), sky `#00adef` for what needs a person (with dark navy text on it; white on sky is too faint), charcoal `#35363a` text, periwinkle `#5262a6` for allowances and changes, forest `#1c6f47` for success, gold `#f2a900` as a fill only (its text colour is `#8a5a00`), red `#c0392b` for errors. The cube's four colours make the colour line at the bottom edge of the rail; the top of the rail shows the cube mark with PLATTER under it (Platter PH12-D90).
 
 The design system these values come from is the **LEMA Platter** design system: https://claude.ai/artifact/V8C37QM1JqGLYBPpA9ZGHa (tokens named as Platter's variables, light `platter` and dark `platter-dark`, with the Budget table components). Change values there first, then here.
 
