@@ -1,7 +1,7 @@
 {
   "format": "platter-brand/1",
   "id": "lema",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "company": "LEMA Construction",
   "product": "Platter",
   "tagline": "Efficient solutions for every build.",
@@ -15,5 +15,6 @@
   "logoOnDark": "logo-white.svg",
   "mark": "mark.svg",
   "touchIcon": "touch-icon.png",
-  "loader": "mark"
+  "loader": "mark",
+  "rail": "mark"
 }
