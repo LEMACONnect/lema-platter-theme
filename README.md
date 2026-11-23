@@ -2,18 +2,17 @@
 
 The LEMA Construction look for [Platter](https://platter.studio): a theme package in Platter's `platter-brand/1` format. Platter itself ships with no LEMA content; this repository is where everything LEMA lives (the theme, logos, fonts and the notes for LEMA's own deployment).
 
-For now this is the `theme/lema` branch of the Platter repository; it is laid out as a repository of its own so it can move to one without changes.
+It lives in its own repository, `LEMACONnect/lema-platter-theme` (it began as the `theme/lema` branch of the Platter repository, which stays as a copy until Platter's docs point here).
 
 ## Install it in Platter
 
 Settings › Look › **Install from GitHub**, paste the link, then **Use for everyone**:
 
-- this branch: `https://github.com/LEMACONnect/PLATTER/tree/theme/lema`
-- once it has its own repository: `https://github.com/<owner>/<repo>` (or a tag: `…/tree/v1.1.0`)
+- this repository: `https://github.com/LEMACONnect/lema-platter-theme` (or a tag: `…/tree/v1.2.1`)
 
 A private repository needs a GitHub token with read access to its contents: paste it in the same window (it is used for that download only), or set `THEME_GITHUB_TOKEN` on the server so **Update** works later.
 
-A deployment can also install it at start-up: `PLATTER_THEME_REPO=https://github.com/LEMACONnect/PLATTER/tree/theme/lema` with `PLATTER_BRAND=lema` (see `deploy/LEMA-DEPLOYMENT.md`).
+A deployment can also install it at start-up: `PLATTER_THEME_REPO=https://github.com/LEMACONnect/lema-platter-theme` with `PLATTER_BRAND=lema` (see `deploy/LEMA-DEPLOYMENT.md`).
 
 You can still upload it as a ZIP (Settings › Look › Install package): zip this folder, or run `npm run brand -- pack` from a Platter checkout with this folder in `brands/lema`.
 

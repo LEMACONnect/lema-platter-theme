@@ -30,12 +30,12 @@ Secrets stay as they are: `FLY_API_TOKEN` (production), `FLY_STAGING` (staging),
 
 | Secret | Value | Why |
 |---|---|---|
-| `PLATTER_THEME_REPO` | `https://github.com/LEMACONnect/PLATTER/tree/theme/lema` | installs this theme at start-up when it isn't installed yet |
+| `PLATTER_THEME_REPO` | `https://github.com/LEMACONnect/lema-platter-theme` | installs this theme at start-up when it isn't installed yet |
 | `THEME_GITHUB_TOKEN` | a fine-grained GitHub token, contents: read, on this repository | the repository is private |
 | `PLATTER_BRAND` | `lema` | pins the site to the LEMA theme (leave unset on staging so Settings › Look can switch) |
 
 ```bash
-fly secrets set --app lema-platter PLATTER_THEME_REPO=https://github.com/LEMACONnect/PLATTER/tree/theme/lema THEME_GITHUB_TOKEN=<token> PLATTER_BRAND=lema
+fly secrets set --app lema-platter PLATTER_THEME_REPO=https://github.com/LEMACONnect/lema-platter-theme THEME_GITHUB_TOKEN=<token> PLATTER_BRAND=lema
 ```
 
 ## In the app (an admin, once per site)
